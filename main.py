@@ -23,7 +23,7 @@ from timm.models import create_model
 from timm.scheduler import create_scheduler
 from timm.optim import create_optimizer
 
-from datasets import build_continual_dataloader
+from local_datasets import build_continual_dataloader
 from engine import *
 import models
 import utils
