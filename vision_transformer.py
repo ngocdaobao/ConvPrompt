@@ -135,11 +135,8 @@ default_cfgs = {
         num_classes=21843),
         # ImageNet-1K fine-tuned models
     'vit_base_patch16_224_in21k': _cfg(
-        url='https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k/resolve/main/pytorch_model.bin',
-        mean=IMAGENET_DEFAULT_MEAN,
-        std=IMAGENET_DEFAULT_STD,
-        num_classes=1000,
-    ),
+        url='https://huggingface.co/timm/vit_base_patch16_224.augreg2_in21k_ft_in1k/blob/main/pytorch_model.bin',
+        mean=IMAGENET_DEFAULT_MEAN, std=IMAGENET_DEFAULT_STD, num_classes=1000,),
         # ImageNet-21K fine-tuned models
     # 'vit_base_patch16_224_in21k': _cfg(
     #     url='https://storage.googleapis.com/vit_models/augreg/B_16-i21k-300ep-lr_0.001-aug_medium1-wd_0.1-do_0.0-sd_0.0.npz',
